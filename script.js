@@ -24,15 +24,4 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.style.fontSize = `${tamanhoAtualFonte}rem`
 
     })
-
-const botaoAcessibilidade = document.getElementById ('botao-acessibilidade')
-const opçoesdeAcessibilidade = document.getElementById('opçoes-acessibilidade')
-
-
-botaoAcessibilidade.addEventListener('click' , function (){
-botaoAcessibilidade. classList.toggle ('rotacao-botao');
-opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
-
-})
-
 })
