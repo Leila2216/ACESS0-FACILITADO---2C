@@ -3,11 +3,10 @@
 
 :root {
     --laranja-claro: #FF862A;
-    --alto-contrate-fundo: #000000;
-    --alto-contraste-texto: #ffffffff;
---alto-contraste-link: #ffd700;
-
- }
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
 
 body {
     font-size: 1rem;
@@ -147,6 +146,7 @@ h2 {
     right:20px;
     z-index: 1000;
 }
+
 .rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
@@ -166,20 +166,26 @@ h2 {
 }
 
 .alto-contraste{
-
-    background-color: var(--alto-contrate-fundo);
-    color: var (--alto-contraste-texto);
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
 }
 
-.alto-contraste header, .alto-contraste footer, .alto-contraste .formulario {
-
-     background-color: var(--alto-contrate-fundo);
-    color: var (--alto-contraste-texto);
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
 }
 
-.alto-contraste .nav-link {
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
 
-    color: var (--alto-contraste-link);
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
 }
 
 .alto-contraste #tropicalia {
@@ -187,9 +193,8 @@ h2 {
 }
 
 .alto-contraste #galeria {
-    background-color : var(--alto-contrate-fundo);
+    background-color: var(--alto-contraste-fundo);
 }
-
 .alto-contraste .fundo-galeria {
     background: none;
 }
