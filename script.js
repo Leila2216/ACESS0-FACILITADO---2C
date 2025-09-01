@@ -30,7 +30,8 @@ const opçoesdeAcessibilidade = document.getElementById('opçoes-acessibilidade'
 
 
 botaoAcessibilidade.addEventListener('click' , function (){
-botaoAcessibilidade. classList.toggle ('rotacao-botao')
+botaoAcessibilidade. classList.toggle ('rotacao-botao');
+opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
 
 })
 
