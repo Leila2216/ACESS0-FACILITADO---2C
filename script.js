@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
-    const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
+    const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade');
+    const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade');
+    const alternaContraste = document.getElementById ('alterna-contraste');
 
     botaoDeAcessibilidade.addEventListener('click', function () {
         botaoDeAcessibilidade.classList.toggle('rotacao-botao');
-        opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
+        opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
 
     })
 
