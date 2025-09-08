@@ -36,3 +36,8 @@ botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado);
 
 
 })
+
+ScrollReveal().reveal('.#início', { delay: 500 });
+ScrollReveal().reveal('.#tropicáia', { delay: 500 });
+ScrollReveal().reveal('.#galeria', { delay: 500 });
+ScrollReveal().reveal('.#contato', { delay: 500 });
